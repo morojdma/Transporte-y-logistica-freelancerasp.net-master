@@ -1,0 +1,7 @@
+.detalle2 {
+    width: 100%;
+    height: 536px;
+    background-image: url('../Imagenes/FondoVehiculo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

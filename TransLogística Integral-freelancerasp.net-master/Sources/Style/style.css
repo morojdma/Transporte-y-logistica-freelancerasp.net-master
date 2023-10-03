@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../Imagenes/ImgLogin.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cabezera {
+    width: 10rem;
+    height: 10rem;
+    margin: auto;
+    position: relative;
+    top: 10rem;
+    z-index: 99;
+}
+
+img {
+    width: 100%;
+    background-color: #f5f5dc;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px #00000050;
+}
+
+.cuerpo {
+    width: 35rem;
+    height: 40rem;
+    padding: 50px;
+    margin: auto;
+    position: relative;
+    top: 50px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #00000050;
+    z-index: 9;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 2.5rem;
+    padding: 20px 0px;
+}
+
+input {
+    display: block;
+    padding: 1.3rem;
+    margin: 10px 5px 25px 5px;
+    min-width: 24.5rem;
+    background-color: #f6f6f6;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px #00000050;
+}
+
+input.submit {
+    background-color: rgb(28, 120, 196);
+    color: #fff;
+    font-size: 1.5rem;
+    min-width: 150px;
+    margin: auto;
+}
+
+input.submit:hover {
+    background-color: rgb(21, 83, 134);
+}
+
+.loss {
+    text-align: center;
+    padding-top: 1.5rem;
+}
+
+h3 a {
+    color: #000;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+h3 a:hover {
+    color: rgb(21, 83, 134);
+    transition: 0.3s all;
+    text-decoration: underline;
+}

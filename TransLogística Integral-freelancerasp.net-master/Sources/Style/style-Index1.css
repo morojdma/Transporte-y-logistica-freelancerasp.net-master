@@ -1,0 +1,62 @@
+.detalle {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../Imagenes/jessica-favaro-4JPBr2zPISA-unsplash.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.escritores {
+    text-align: left;
+    width: 20%;
+    height: 10%;
+    border-right: 1px solid rgb(0, 0, 0);
+    padding: 15px 30px;
+}
+
+.escritores li {
+    color: rgb(0, 0, 0);
+    display: block;
+    font-size: 15px ;
+    background-color: rgb(50, 25, 0);
+    border: 2px solid rgb(0, 0, 0);
+    margin: 20px 10px;
+    padding: 50px 8px;
+}
+
+
+.charles {
+    position: sticky;
+    width: auto;
+    height: auto;
+    background-image: url(../Imagenes/charles.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.william {
+    position: sticky;
+    width: auto;
+    height: auto;
+    background-image: url('../Imagenes/william.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dante {
+    position: sticky;
+    width: auto;
+    height: auto;
+    background-image: url('../Imagenes/dante.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.davinci {
+    position: sticky;
+    width: auto;
+    height: auto;
+    background-image: url('../Imagenes/davinci.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
